@@ -1,0 +1,97 @@
+body {
+    padding-top: 70px;
+}
+
+
+.lightbox {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, .8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .25s ease, visibility .25s ease;
+    z-index: 1055;
+
+}
+
+.lightbox.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    border: 4px solid #fff;
+    border-radius: 8px;
+}
+
+
+
+body {
+    background-color: antiquewhite;
+    margin: 50px 75px 75px 50px;
+    padding: 30px;
+}
+
+.cardGraphs {
+    text-align: center;
+}
+
+.card {
+    background-color: rgb(196, 196, 196);
+    margin: 40px 50px 50px 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    background-color: white;
+    color: black;
+    text-align: center;
+    border: 10px solid black;
+    text-transform: capitalize;
+
+}
+
+h2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 10px solid black;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+
+.Intro p {
+    width: auto;
+    text-align: center;
+}
+
+.Introp {
+    background-color: white;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.buttons {
+    margin: 20px 50px 50px 40px;
+    text-align: center;
+}
+
+.readme {
+    margin: 20px 50px 50px 40px;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    width: auto;
+    text-align: center;
+    padding: 30px;
+}
