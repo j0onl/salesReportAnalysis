@@ -202,19 +202,10 @@ Some products, despite having high sales, are not profitable—for example, tabl
 Furniture, on the other hand, poses a risk, as it generates limited profit and includes loss-making products.</p>
 	
 	<h3>7) Graph 7 - Average Of Delivery Days by year and Region</h3>
-	<p>This chart confirms that delivery times are consistent across all regions. However, there are some differences: the Central region remains stable, the South is showing improvement, while the West is more volatile.</p>
+	<p>This chart confirms that delivery times are consistent across all regions.</p>
 	
 </div>	
-<div>	
-<h2>6. Limitations</h2>
-<p>Although high discounts have a direct impact on profit margins, there are other factors that may also contribute to low profitability. Among them:
-Logistics costs: longer delivery times or higher transportation costs reduce margins.
-Product mix composition: some subcategories, such as Tables and Bookcases, have intrinsically low or even negative margins.
-Structure of fixed and operating costs: high sales do not automatically translate into profit if fixed costs grow at the same pace.
-Seasonality and promotions: during periods such as year-end, sales increase but often at the expense of aggressive discount campaigns.
-Regional differences: certain regions may have higher distribution costs or lower efficiency.</p>
 
-</div>
 
 <div>
 <h2>7. Conclusions</h2>
