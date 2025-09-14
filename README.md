@@ -217,7 +217,7 @@ It is recommended to limit aggressive discounts, strengthen the focus on profita
 
 <h5>Endnote: It should be noted that this analysis is based solely on the available dataset! 
 It seems that the dataset does not capture several external factors that could impact the company’s profitability. 
-Although the analysis has been conducted with care to avoid errors, the primary purpose of this work is to gain experience with the technologies used.</h5>
+Although the analysis has been conducted with care to avoid errors, the primary purpose of this work is to gain experience with the technologies used. Just to clarify, I don't have any formal experience in data analysis. I understand that analyses can be done more rigorously. I'm currently self-learning both the technologies and the fundamentals of data analysis.</h5>
 </p>
 </div>
 </div>
