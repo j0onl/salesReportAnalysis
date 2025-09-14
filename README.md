@@ -111,7 +111,7 @@ The original dataset contains the following columns: </p>
 <h2>3. Transformed Data (Power Query - M language)</h2>
 <p>The transformation of data was done with M language. I applied the following steps to the dataset:</p>
 
-<pre> ```m 
+<pre> 
 let
     Origem = Csv.Document(File.Contents("C:\Users\johnl\Desktop\datasets\sales_report_powerQuery\Sample - Superstore.csv"),[Delimiter=",", Columns=21, Encoding=1252, QuoteStyle=QuoteStyle.None]),
     #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Origem, [PromoteAllScalars=true]),
@@ -141,7 +141,7 @@ let
    
 in
     #"OrderMonthName"
-```</prev>
+</prev>
 
 
 <p>
@@ -158,16 +158,16 @@ The last collums to be added were these: delivery days (number), Order Year (int
 <div>
 <h2>4. KPI's Criados</h2>
 <p>In this step on Power BI I created some measures: Total Sales, Total Profit, Profit Margin, Total Discount, % loss and Average Delivery Days...
-The KPI's that I consider relevant are:
-Avg Delivery Days = AVERAGE('Sample - Superstore'[Delivery Days])
-Loss % by Segment = DIVIDE(SUM('Sample - Superstore'[Loss]),COUNTROWS('Sample - Superstore'),0)
-Max Delivery Days = MAX('Sample - Superstore'[Delivery Days])
-Min Delivery Days = MIN('Sample - Superstore'[Delivery Days])
-Profit Margin = DIVIDE([Total Profit], [Total Sales], 0)
-Sales % by SubCategory = DIVIDE(SUM('Sample - Superstore'[Sales]),CALCULATE(SUM('Sample - Superstore'[Sales]), ALL('Sample - Superstore'[Sub-Category])),0)
-Total Discount = SUM('Sample - Superstore'[Discount_value])
-Total Profit = SUM('Sample - Superstore'[Profit])
-Total Sales = SUM('Sample - Superstore'[Sales])</p>
+The KPI's that I consider relevant are:</p>
+<p>Avg Delivery Days = AVERAGE('Sample - Superstore'[Delivery Days])</p>
+<p>Loss % by Segment = DIVIDE(SUM('Sample - Superstore'[Loss]),COUNTROWS('Sample - Superstore'),0)</p>
+<p>Max Delivery Days = MAX('Sample - Superstore'[Delivery Days])</p>
+<p>Min Delivery Days = MIN('Sample - Superstore'[Delivery Days])</p>
+<p>Profit Margin = DIVIDE([Total Profit], [Total Sales], 0)</p>
+<p>Sales % by SubCategory = DIVIDE(SUM('Sample - Superstore'[Sales]),CALCULATE(SUM('Sample - Superstore'[Sales]), ALL('Sample - Superstore'[Sub-Category])),0)</p>
+<p>Total Discount = SUM('Sample - Superstore'[Discount_value])</p>
+<p>Total Profit = SUM('Sample - Superstore'[Profit])</p>
+<p>Total Sales = SUM('Sample - Superstore'[Sales])</p>
 </div>
 
 <div>
